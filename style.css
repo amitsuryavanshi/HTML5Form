@@ -1,0 +1,159 @@
+body {
+    background: none repeat scroll 0 0 #EDE8E2;
+    color: #414141;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 75%;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header{
+	height: 125px;
+	padding: 0 0 0 18px;
+	width:auto;
+	position:relative;
+}
+
+.title{
+	color:#009193;
+	background:#F0F9F9;
+	position:absolute;
+	top:20px;
+	width:96%;
+	height:75%;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.main{
+	max-width:960px;
+	height:auto;
+	font:14px Arial,Helvetica,sans-serif;
+	background:#FFF;
+	margin: 0 auto;
+	text-align:left;
+}
+
+.container{
+  width:auto;
+  height:auto;
+}
+
+.container  .left{
+  width:75%;
+  height:auto;
+  float:left;
+  padding: 0 0 0 18px;
+    
+}
+
+.left .left_container h2{
+	color:#009193;
+	margin-left:15px;
+	padding-top:10px;
+	text-align:center
+}
+
+.left .left_container{
+	margin-left:10px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	min-height:330px;
+
+}
+
+a {
+	color:#6C8C37;
+	text-decoration: none;
+}
+
+.over{
+	color:#009193 !important;
+}
+
+.container .right{
+	width:20%;
+	height:auto;
+	float: right;
+	padding: 0 18px 0 0;
+}
+
+.right_title{
+  	color:#009193;
+	background:#FAFAF1;
+	padding:4px 3px 4px 8px;
+	font-size:16px;
+}
+
+.right .right_container{
+	margin:17px 10px 0 0;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	color:#009193;
+	
+}
+
+.sub_category{
+	padding:3px 3px 3px 15px;
+}
+
+
+
+label{
+	padding: 5px 0;
+	width: 50%;
+	font-weight: bold;
+        display:block;
+        float:left;
+	text-align:right
+	
+}
+
+input{
+	margin-left:10px;
+	width: auto;
+	
+}
+
+.submit_para{
+	text-align:center;
+	padding-bottom:20px;
+}
+
+select{
+	margin-left:10px;
+	width: 150px;
+	background:#EEEEEE;
+	
+}
+
+select option{
+	margin-left:1px
+}
+
+p{
+	padding:5px;
+}
+
+
+.style_button{
+	-webkit-box-shadow: rgba(0, 0, 0, 0.199219) 0px 1px 0px 0px;
+	background-color: #A3C159;
+	border-radius: 5px;
+	border-bottom-color: #333;
+	border: none;
+	border-width: 0;
+	box-shadow: rgba(0, 0, 0, 0.199219) 0px 1px 0px 0px;
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	height: 32px;
+	padding: 4px 16px;
+	text-shadow: #FE6 0px 1px 0px;
+}
+
+
+.footer{
+	clear:both;
+	height:50px;
+	padding: 0 0 0 18px;
+}
